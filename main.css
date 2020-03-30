@@ -107,9 +107,11 @@ form input{
     border: none;
 }
 
-form input#message{
-    padding: 10px;
-    /*padding-bottom: 5%;*/
+textarea#cMensagem{
+    border-radius: 10px;
+    text-indent: 10px;
+    padding-top: 10px;
+    border: none;
 }
 
 form button#send{
@@ -117,6 +119,7 @@ form button#send{
     padding-right:10px;
     background-color: rgb(170, 230, 70);
     border-radius: 10px;
+    border-style: none;
 }
 
 form button#send:hover{
