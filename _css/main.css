@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*------------------------FORMATAÇÃO BÁSICA------------------------------*/
+h1,h2,h3,h4,h5,h6,p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    overflow-x: hidden;
+}
+
+.contentBox{
+    padding: 5%;
+}
+
+hr{
+    border-color: rgb(170, 230, 70);
+}
+
+
+/*-------------------------HOME-----------------------------*/
+div#home{
+    /*background: url('../_images/star.jpg');*/
+    background-color: rgb(170, 230, 70);
+    margin: -2% -2% auto -2%;
+}
+
+div#meuNome h1{
+    color: rgb(44, 44, 44);
+    font-size: xx-large;
+    text-align: center;
+    font-family: monospace ;
+    font-weight: bold;
+}
+
+ul#homeMenu li{
+    display: block;
+    border-style:  solid 1px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+ul#homeMenu li :hover{
+    border-radius:  50px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(170, 230, 70);
+    padding: 10px;
+}
+
+ul#homeMenu p{
+    list-style: none;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    font-size: large;
+}
+
+ul#homeMenu{
+    list-style: none;
+    display: block;
+}
+
+ul#homeMenu a{
+    text-decoration: none;
+}
+
+/*----------------------ABOUT ME---------------------------*/
+
+div#aboutMe{
+    margin-top: 0%;
+    margin-bottom: 20%;
+}
+
+.contentBox h1,h2{
+    color: rgb(170, 230, 70);
+}
+
+.contentBox p{
+    color: whitesmoke;
+}
+
+/*----------------------DESIGN---------------------------*/
+/*----------------------PROGRAMAÇÃO---------------------------*/
+/*----------------------CONTATO---------------------------*/
+
+.contentBox2{
+    padding: 5%;
+}
+
+div#contact{
+    background-color: rgb(170, 230, 70);
+    margin: auto -2% auto -2%;
+}
+
+div#contact h1,p{
+    color: rgb(44, 44, 44);
+}
+
+div#escolha{
+    display: inline-flex;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input#message{
+    padding: 10px;
+    /*padding-bottom: 5%;*/
+}
+
+form button#send{
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: rgb(170, 230, 70);
+    border-radius: 10px;
+}
+
+form button#send:hover{
+    background-color: rgb(44, 44, 44);    
+}
+
+form button#send:hover p{
+    color: rgb(170, 230, 70);    
+}
+
+/*----------------------FOOTER---------------------------*/
+footer p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
