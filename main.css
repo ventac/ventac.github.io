@@ -24,44 +24,44 @@ div#home{
     /*background: url('../_images/star.jpg');*/
     background-color: rgb(170, 230, 70);
     margin: -2% -2% auto -2%;
+    padding-bottom: 20%;
 }
 
-div#meuNome h1{
-    color: rgb(44, 44, 44);
-    font-size: 500%;
+div#meuNome img{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+
+div#homeMenu a{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     text-align: center;
-    font-family: monospace ;
     font-weight: bold;
-}
-
-ul#homeMenu li{
-    display: block;
-    border-style:  solid 1px black;
-    margin-top: 5%;
-    margin-bottom: 5%;
     padding: 10px;
 }
 
-/*ul#homeMenu li :hover{
+div#homeMenu a :hover{
     border-radius:  50px;
     background-color: rgb(44, 44, 44);
     color: rgb(170, 230, 70);
-    padding: 10px;
-}*/
+ 
+}
 
-ul#homeMenu p{
+div#homeMenu p{
     list-style: none;
     color: rgb(44, 44, 44);
     text-align: center;
     font-size: large;
 }
 
-ul#homeMenu{
+div#homeMenu{
     list-style: none;
-    display: block;
 }
 
-ul#homeMenu a{
+div#homeMenu a{
     text-decoration: none;
 }
 
@@ -114,26 +114,10 @@ textarea#cMensagem{
     border: none;
 }
 
-form button#send{
-    padding-left: 10px;
-    padding-right:10px;
-    background-color: rgb(170, 230, 70);
-    border-radius: 10px;
-    border-style: 1px solid black;
-}
 
-form button#send:hover{
-    background-color: rgb(44, 44, 44);    
-}
-
-form button#send:hover p{
-    color: rgb(170, 230, 70);    
-}
-
-img#teste{
-    display: block;
-    float: right;
-}
+/*input#cEnvoyerImg :hover{
+    color: violet;
+}*/
 
 /*----------------------FOOTER---------------------------*/
 footer p{
