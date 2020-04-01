@@ -5,3 +5,80 @@
 - Botão do menu de navegação que aparece quando desce a página
 - Desenhar um logo
 - Criar novo email de contato
+
+
+
+
+
+        <br>
+        <div id="homeMenu">
+            <a href="https://ventac.github.io/#design"><p>Design</p></a>
+            <a href="https://ventac.github.io/#prog"><p>Programming</p></a>
+            <a href="https://ventac.github.io/#contact"><p>Contact</p></a> 
+        </div>   
+
+        ---------------------------------------
+
+
+
+<div id="aboutMe">
+    <div class="contentBox">
+        <h1>About me</h1>
+        <hr>
+        <p>
+            Sou blablablablalbbla durante meu mestrado dasdasd programação
+            Blablablablab me interesso fortemente por (futuramente planejo expandir meus conhecimentos nas áreas de) Inteligência artificial, Produção de jogos e asdasd
+        </p>
+
+
+        <h2>Studies</h2>
+        <ul><li><p> <b>Bachelor in European Management</b> (EM-Strasbourg)</li>
+        <li><p><b>Master PGE in Supply Chain Management</b> (EM-Strasbourg) ongoing (barra de carregando estilo barbeiro)</p></li></ul>
+
+        <h2>Working XP</h2>
+        <p>
+            - Marketing and design
+            gestão de páginas de rede social
+            <br>
+            <b>Polar Componentes Brasil Ltda.</b>
+            <br>
+        </p>
+
+    </div>
+</div>
+---->
+--------------------------------------------
+
+<br>
+
+<div id="prog">
+    <div class="contentBox">
+        <h1>Programmation</h1>
+        <hr>
+        <!---Foto e/ou desenho (interessante)--->
+        <p>
+            Aqui você verá exemplos de designs que fiz nos trabalhos anteriores e na faculdade
+        </p>
+        Programming
+
+Websites:
+Just the design
+polarb2b.com 
+
+Design Forntend and Backend
+canigoout
+artbook
+this website
+
+Knowledges
+- Programming Logic
+- HTML, CSS and Basic Javascript
+Currenty studying: Javascript [barra de carreggamneto estilo barbeiro] (Python, SQL)
+
+
+
+[cubo mágico no canto]
+
+
+    </div>
+</div>
